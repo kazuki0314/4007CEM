@@ -14,8 +14,8 @@ file2.close()
 # ************- Your app password. If you do not know how to generate app password for your mail please google.
 s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
-s.login("azkazuki0314@gmail.com", "mujdmkfurvovlxkw")
+s.login("###########3", "############")
 print(msg)
-s.sendmail('azkazuki0314@gmail.com',mailid,msg)
+s.sendmail('###############',mailid,msg)
 
 
