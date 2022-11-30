@@ -3154,12 +3154,12 @@ mail_label3.place(x=12, y=111)
 from email.mime.text import MIMEText
 
 def sendemailfrhelp():
-    account = "rationalselection0314@gmail.com"
-    password = "izhyvtbihaqpxiux"
+    account = "#######################"
+    password = "######################"
 
         # PRG2: メール情報の設定
-    to_email = "azkazuki0314@gmail.com"
-    from_email = "rationalselection0314@gmail.com"
+    to_email = "######################"
+    from_email = "##########################"
             
         # PRG3: MIMEオブジェクトでメールを作成
     subject = titleentry.get("1.0", "end-1c")
